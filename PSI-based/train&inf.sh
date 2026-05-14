@@ -1,0 +1,1 @@
+python train.py --batch_size 10 --learning_rate 2e-4  --gru_dropout 0.4 --accelerator cuda  --num_layers 2 --num_pair_embedding 192 --num_gru_layers 2 --max_epoch 3000  --gradient_clip_val 1.0 --log_every_n_steps 10 --num_nodes 1 --precision 32 --factor1 1000.0 --factor2 0.0 --factor3 0.0 --factor4 0.0 --factor5 0.0 --hdf5_file 'path to transition1x.h5 file'

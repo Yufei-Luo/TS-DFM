@@ -1,0 +1,28 @@
+train:
+  seed: 2025
+  epochs: 2000
+  save_path: logs/dynamics_flow
+  log_interval: 10
+  val_interval: 1
+  
+optimizer:
+  lr: 0.0005
+  weight_decay: 1e-16
+  
+scheduler:
+  min_lr: 0.000001
+  patience: 40
+  factor: 0.8
+  stop_tolerance: 400
+
+data:
+  path:  # path to transition1x.h5 file
+  batch_size: 32
+  
+dynamic_model:
+  parameters: 
+    hidden_dim: 128
+    cutoff: 20.0
+    max_embedding: 100
+    # max_num_neighbors: 128
+    num_layers: 6

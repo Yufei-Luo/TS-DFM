@@ -1,0 +1,45 @@
+train:
+  seed: 2023
+  steps: 5000000
+  save_path: logs/potential
+  log_interval: 100
+  val_interval: 5000
+  val_steps: 5000
+  loss_energy: 0.01
+  loss_force: 0.99
+  stop_tolarance: 500000
+  loss: mse # mse or mae
+  
+optimizer:
+  lr: 0.001
+  weight_decay: 1e-16
+  
+scheduler:
+  min_lr: 0.000001
+  factor: 0.75
+  patience: 25
+
+data:
+  path: # path to transition1x.h5 file
+  batch_size: 50
+  
+model:
+  pretrained_model:
+  backbone:
+    name: TorchMD
+    parameters: 
+      hidden_dim: 256
+      cutoff: 10.0
+      max_embedding: 100
+      max_num_neighbors: 128
+      num_layers: 6
+  head:
+    name: EquivariantScalar 
+    parameters:
+      hidden_dim: 256 # should be same as the hidden dimension of backbone model
+
+
+
+
+
+
