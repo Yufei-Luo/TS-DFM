@@ -6,9 +6,9 @@ This repo contains the code for "Generative Flow Model on Distance Geometry for 
 
 Before reproducing the results on Transition1x dataset, please download the `.h5` file in [Item - Transition1x - figshare - Figshare](https://figshare.com/articles/dataset/Transition1x/19614657/4?file=36035789).
 
-The preprocessed RGD1 subset used in our work can be downloaded from [https://doi.org/10.5281/zenodo.17672638](https://doi.org/10.5281/zenodo.20179683).
+The preprocessed RGD1 subset used in our work can be downloaded from [https://doi.org/10.5281/zenodo.20179684](https://doi.org/10.5281/zenodo.20179684).
 
-We have provided the trained checkpoints of baseline methods and our proposed TS-DFM. They can be downloaded from [https://doi.org/10.5281/zenodo.17672638](https://doi.org/10.5281/zenodo.20179683)
+We have provided the trained checkpoints of baseline methods and our proposed TS-DFM. They can be downloaded from [https://doi.org/10.5281/zenodo.20179684](https://doi.org/10.5281/zenodo.20179684)
 
 # Reproduction
 
