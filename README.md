@@ -1,6 +1,6 @@
 # Introduction
 
-This repo contains the code for "Generative Flow Model on Distance Geometry for Predicting Transition States of Chemical Reactions" to be published at *Nature Communications*.
+This repo contains the code for "Generative Flow Model on Distance Geometry for Predicting Transition States of Chemical Reactions" published at *Nature Communications*.
 
 # Dataset and pretrained checkpoints
 
@@ -26,15 +26,14 @@ NeuralNEB: NeuralNEB/
 
 # Citation
 
-If you find this repo useful, please cite our article (The citation at *Nature Communications* will be updated after official publishment.)
+If you find this repo useful, please cite our article as follows
 ````latex
-@misc{luo2025generatingtransitionstateschemical,
-      title={Generating transition states of chemical reactions via distance-geometry-based flow matching}, 
-      author={Yufei Luo and Xiang Gu and Jian Sun},
-      year={2025},
-      eprint={2511.17229},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2511.17229}, 
-}
+@article{luoGenerativeFlowModel2026a,
+  title = {Generative Flow Model on Distance Geometry for Predicting Transition States of Chemical Reactions},
+  author = {Luo, Yufei and Gu, Xiang and Sun, Jian},
+  year = 2026,
+  month = jun,
+  journal = {Nature Communications},
+  issn = {2041-1723},
+  doi = {10.1038/s41467-026-74101-0},
 ````
