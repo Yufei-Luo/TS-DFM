@@ -28,12 +28,15 @@ NeuralNEB: NeuralNEB/
 
 If you find this repo useful, please cite our article as follows
 ````latex
-@article{luoGenerativeFlowModel2026a,
+@article{luoGenerativeFlowModel2026,
   title = {Generative Flow Model on Distance Geometry for Predicting Transition States of Chemical Reactions},
   author = {Luo, Yufei and Gu, Xiang and Sun, Jian},
   year = 2026,
   month = jun,
   journal = {Nature Communications},
+  volume = {17},
+  number = {1},
+  pages = {7497},
   issn = {2041-1723},
   doi = {10.1038/s41467-026-74101-0},
 ````
